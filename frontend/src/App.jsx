@@ -66,7 +66,7 @@ function App() {
     <Box position="relative" w='full'>
 
       <Container maxW={"1000px"} >
-        {(pathname === "/:Job-application-form/:id" ||pathname === "/organization-job" ||pathname === '/' || pathname === '/business' || pathname === '/consultant' || pathname === '/auth' || pathname === '/update' || pathname === '/chat' || pathname === '/settings' || pathname === '/:username/post/:pid' || pathname === '/:username/product/:pid' || pathname === '/:username') && <Header />}
+        {/* {(pathname === "/:Job-application-form/:id" ||pathname === "/organization-job" ||pathname === '/' || pathname === '/business' || pathname === '/consultant' || pathname === '/auth' || pathname === '/update' || pathname === '/chat' || pathname === '/settings' || pathname === '/:username/post/:pid' || pathname === '/:username/product/:pid' || pathname === '/:username') && <Header />} */}
         {/* {(pathname === "/:Job-application-form/:id" ||pathname === "/organization-job" ||pathname === '/' || pathname === '/business' || pathname === '/consultant' || pathname === '/update' || pathname === '/chat' || pathname === '/settings' || pathname === '/:username/post/:pid' || pathname === '/:username/product/:pid' || pathname === '/:username') && <HeaderB />}
         {(pathname === "/organization-Home" ||pathname === "/Create-a-post" ||pathname === '/Candidate-Shortlisting' || pathname === '/Update-Organization' || pathname === '/Post-a-job' || pathname === '/Shortlisted-Candidates' || pathname === '/Posted-Jobs' ) && <ODSideBar />} */}
          {/* <MainSideBar /> */}
